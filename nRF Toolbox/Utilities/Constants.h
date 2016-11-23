@@ -58,4 +58,15 @@ static NSString * const uartServiceUUIDString = @"6E400001-B5A3-F393-E0A9-E50E24
 static NSString * const uartTXCharacteristicUUIDString = @"6E400003-B5A3-F393-E0A9-E50E24DCCA9E";
 static NSString * const uartRXCharacteristicUUIDString = @"6E400002-B5A3-F393-E0A9-E50E24DCCA9E";
 
+static NSString * const roomMonitorServiceUUIDString =                              @"8C877E45-EE0A-4747-B9CB-4E17B11FC3EC";
+static NSString * const roomMonitorMostRecentLightLevelCharateristicUUIDString =    @"8C8724F4-EE0A-4747-B9CB-4E17B11FC3EC";
+static NSString * const roomMonitorMostRecentActivityStateUUIDString =              @"8C870296-EE0A-4747-B9CB-4E17B11FC3EC";
+static NSString * const roomMonitorHistoricalLightLevelUUIDString =                 @"8C8794B9-EE0A-4747-B9CB-4E17B11FC3EC";
+static NSString * const roomMonitorHistoricalActivityStateUUIDString =              @"8C8765DD-EE0A-4747-B9CB-4E17B11FC3EC";
+static NSString * const roomMonitorTimeOfMostRecentMeasurementUUIDString =          @"8C87AEDD-EE0A-4747-B9CB-4E17B11FC3EC";
+static NSString * const roomMonitorTimeOfHistoricalMeasurementUUIDString =          @"8C87BCD4-EE0A-4747-B9CB-4E17B11FC3EC";
+
+
+
+
 #endif
